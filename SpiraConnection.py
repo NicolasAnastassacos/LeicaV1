@@ -1,25 +1,14 @@
 __author__ = 'nicolasanastassacos'
 
-from PySide import QtCore, QtGui
-
 import time
 
-import sys, random
-
-from wholegui2 import Ui_MainWindow
 from suds.client import Client
-
-from suds.cache import DocumentCache
-from suds.sax.element import Element
-from suds import WebFault
 
 import logging
 from suds.xsd.doctor import Import, ImportDoctor
 
 import operator
 import Requirements
-
-from requirementsdialog import Ui_Dialog
 
 logging.basicConfig(level=logging.INFO)
 
