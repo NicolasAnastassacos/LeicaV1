@@ -1,4 +1,7 @@
 
+#Have not yet been able to succesfully incorporate this into the SpiraConnection class.
+
+
 class Requirement:
 
     def __init__(self, ReqID = '', ReqName = '', ReqStatus = ''):
